@@ -55,7 +55,7 @@ class AudioBook(Book):
 
     @property
     def duration(self):
-        """Ы"""
+        """Возвращает значение duration"""
         return self._duration
 
     @duration.setter
